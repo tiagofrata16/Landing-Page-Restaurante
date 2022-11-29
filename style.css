@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nerko+One&family=Roboto&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+}
+
+body {
+    background-color: rgba(19, 12, 26, 0.683);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cabecalho-logo {
+    font-size: 55px;
+    font-family: 'Nerko One', cursive;
+    color: rgba(200, 146, 9, 0.937);
+    font-weight: 500;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(200, 146, 9, 0.937);
+    font-weight: 500;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+/* SECTION DAS IMAGENS */
+.principal-direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.principal-esquerda {
+     display: flex;
+     flex-direction: column;
+     margin: 50px;
+}
+
+.principal-esquerda-titulo {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(200, 146, 9, 0.937);
+    font-weight: 500;
+}
+
+.principal-esquerda-paragrafo {
+    margin-bottom: 45px;
+    color: white;
+}
+
+.principal-esquerda-botao {
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: rgba(249, 137, 9, 0.687);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.principal-direita-hashi-recipiente1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal-direita-hashi-recipiente2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
